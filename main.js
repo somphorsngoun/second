@@ -13,7 +13,7 @@ let chalk = require('chalk');
 // 4- Send a get request to this endpoint : 'https://random-words-api.vercel.app/word'
 //		and print the result of the request in the console
 let url = 'https://random-words-api.vercel.app/word';
-axios.get(url).then(res => console.log(chalk.yellow(res.data[0].word)));
+axios.get(url).then(res => console.log(chalk.orange(res.data[0].word)));
 // 5 - Install NPM chalk package 
 // 		 Change the display in the console as you want using chalk 
 //		 https://www.npmjs.com/package/chalk
